@@ -156,3 +156,30 @@ body{
     color: #1f2937;
     margin: 0;
 }
+
+.quote-section{
+    background-color: #e5e7ec;
+    padding: 50px 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.quote-content{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #87898d;
+    font-style: italic;
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.quote-author{
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #1f2937;
+    font-size: 20px;
+    text-align: right;
+}
