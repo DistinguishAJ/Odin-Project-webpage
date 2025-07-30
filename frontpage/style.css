@@ -203,7 +203,6 @@ body{
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 3rem 7rem;
     border-radius: 8px;
     flex-wrap: wrap;
@@ -212,6 +211,8 @@ body{
 
 .contact-info{
     flex-grow: 1;
+    align-items: center;
+    text-align: left;
 }
 
 .contact-info h4{
@@ -232,8 +233,9 @@ body{
 .contact-info button{
     background-color: transparent; 
     color: white;
+    align-items: right;
     border: 2px solid #4a90f1;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border: 3px solid white;
     border-radius: 10px;
     font-size: 10px;
