@@ -188,9 +188,24 @@ body{
     background-color: #ffffff;
     padding: 50px 30px;
     text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    width: 100%;
+    padding: 0 20px;
 }
 
-.contact-content{
-    max-width: 800px;
-    margin: 0 auto;
+.contact-banner{
+    background-color: #4a90f1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 7rem;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
+
