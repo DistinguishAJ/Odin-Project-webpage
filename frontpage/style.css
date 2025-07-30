@@ -116,6 +116,7 @@ body{
 }
 
 .info-content{
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -134,8 +135,10 @@ body{
     justify-content: center;
     align-items: center;
     width: 400px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
     height: 300px;
-    margin: 10px;
     border-radius: 13px;
     overflow: hidden;
     margin-bottom: 10px;
@@ -207,6 +210,7 @@ body{
     border-radius: 8px;
     flex-wrap: wrap;
     gap: 20px;
+    margin: 0 auto;
 }
 
 .contact-info{
