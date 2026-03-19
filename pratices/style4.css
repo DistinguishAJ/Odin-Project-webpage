@@ -1,0 +1,14 @@
+.img-one, .img-two{
+    height: auto;
+    width: 300px;
+}
+
+.img-three{
+    width: 200px;
+    height: auto;
+}
+
+.img-four{
+    width: 200px;
+    height: 500px;
+}

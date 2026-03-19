@@ -1,0 +1,27 @@
+*{
+    font-family: Verdanda, DejaVu Sans, sans-serif;
+}
+
+.one{
+    background-color: pink;
+}
+
+#two{
+    color: blue;
+    font-size: 36px;
+}
+
+.three{
+    background-color: rgb(233, 155, 168);
+    font-size: 24px;
+}
+
+.four{
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.five{
+    background-color: pink;
+}
