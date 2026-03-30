@@ -15,77 +15,73 @@ body {
   justify-content: center;
 }
 
-.modal {
-  background: white;
+.card{
+  background-color: white;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 20px;
+  box-shadow: 2px 5px 16px rgba(0,0,0,.5);
+  padding: 20px 15px;
 }
 
-.header{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  font-size: 20px;
-  font-weight: 700;
-  margin-top: -60px;
-}
-
-.icon {
+.icon{
   color: royalblue;
-  font-size: 26px;
+  font-size: 20px;
+  background-color: lavender;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
   font-weight: 700;
-  background: lavender;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
+  margin: 0 auto;
+  width: 90%;
 }
 
-.close-button {
-  background: #eee;
-  border-radius: 50%;
-  color: #888;
-  font-weight: 600;
-  font-size: 16px;
-  height: 24px;
+.msg{
+  text-align: left;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.icon-two{
   width: 24px;
+  height: 24px;
+  border-radius: 50%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  border: 1px solid #eee;
+  align-items: center;
+  color: #888;
+  background-color: #eee;
   padding: 0;
-  position: absolute;
-  right: 40px;
-  margin-top: -200px;
+  border: 1px solid #eee;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-top: 5px;
+  
 }
 
-button {
-  cursor: pointer;
-  padding: 8px 16px;
-  border-radius: 8px;
-}
-
-button.continue {
-  background: royalblue;
+.continue{
+  background-color: royalblue;
   border: 1px solid royalblue;
   color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
-button.cancel {
-  background: white;
-  border: 1px solid #ddd;
+.cancel{
   color: royalblue;
+  background-color: white;
+  border: 1px solid #888;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
-.text{
-  padding: 0 30px;
+.continue, .cancel{
+  margin: 5px;
+  margin-left: 26px;
 }
